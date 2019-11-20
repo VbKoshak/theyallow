@@ -1,0 +1,22 @@
+.flex{
+    display: flex;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+
+header {
+    height: 150px;
+
+}
+
+.content{
+    width: 1020px;
+}
