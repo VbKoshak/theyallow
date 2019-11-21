@@ -1,34 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="https://kit.fontawesome.com/de740ea9e1.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Asap&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <header class="flex-row">
-        <div class="content">
-            <div class="header-logo flex">
-                <div class="logo"></div>
-                <h1></h1>
+    <header class=flex-column>
+        <div class="head">
+            <div class="content flex-row">
+                <div class="header-logo flex">
+                    <div class="logo"></div>
+                    <h1>THEYALOW</h1>
+                </div>
+                <nav class="flex-row">
+                    <div class="flex"><i class="fas fa-user"></i>about us</div>
+                    <div class="flex"><i class="fas fa-wrench"></i>services</div>
+                    <div class="flex"><i class="fas fa-envelope"></i>contact</div>
+                </nav>
             </div>
-            <nav class="flex-row">
-                <div></div>
-                <div></div>
-                <div></div>
-            </nav>
-        </div> 
+        </div>
+        <section class="flex-row slider">
+            <div class="slide-control flex"><i class="fas fa-angle-left"></i></div>
+            <div class="content slide flex-row">
+                <div class="video-player">
+                    <video src="#" poster="assets/video-bg.png" class="flex-column">
+                    </video>
+                    <div class="video-play flex"><i class="fas fa-play"></i></div>
+                    <div class="video-control flex-row">
+                        <div class="video-control-play flex"><i class="fas fa-play"></i></div>
+                        <div class="video-control-line flex">
+                            <div class="done"></div>
+                        </div>
+                        <div class="video-control-sound flex"><i class="fas fa-volume-up"></i></div>
+                    </div>
+                </div>
+                <div class="text-box flex-column">
+                    <div class="yellow">the cool</div>
+                    <div class="white">the minimal</div>
+                </div>
+            </div>
+            <div class="slide-control flex"><i class="fas fa-angle-right"></i></div>
+        </section>
     </header>
     <main>
-        <section class="flex-row">
-            <div class="slide-control"></div>
-            <div class="content slider">
-                <video src="#" poster="assets/video-bg.png"></video>
-                <div class="text-box"></div>
-            </div>
-            <div class="slide-control"></div>
-        </section>
         <section>
             <div class="content flex-row icons">
                 <div class="icon"></div>
@@ -47,7 +68,7 @@
                     <div class="article-video">
                         <video src="#" poster="#"></video>
                     </div>
-                
+
                 </div>
                 <div class="article"></div>
             </div>
@@ -77,4 +98,5 @@
         <div class="footer-logo"></div>
     </footer>
 </body>
+
 </html>
