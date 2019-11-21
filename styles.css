@@ -197,3 +197,28 @@ nav>div>i{
     margin-left: 10px;
     opacity: 60%;
 }
+
+.icons{
+    height: 212px;
+    background-image: url('./assets/bg2.png');
+    width: 100%;
+    justify-content: center;
+}
+
+.icon{
+    width: 340px;
+    font-size:80px;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid #d4d4d4;
+    border-right: 1px solid #d4d4d4;
+    color: #f5c506;
+}
+
+.icon-text{
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: light;
+    font-size: 27px;
+    color: black;
+}
